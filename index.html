@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+
+<body class="relative">
+    <!-- <div class="h-[100px] w-[100px] ml-[200px] bg-purple-600 relative ">
+        <div class="h-[10px] w-[20px] rounded-bl-[10px] rounded-br-[10px] bg-pink-400 absolute top-0 left-[40px]"></div>
+        <div class="h-[10px] w-[20px] rounded-tl-[10px] rounded-tr-[10px] bg-pink-400 absolute bottom-0 left-[40px]">
+        </div>
+    </div> -->
+
+
+    <header id="header_tag"  class="h-[100vh] w-full bg-[url(./images/banner.png)] bg-[length:100%_100%] relative">
+        <div class="w-[80vw] h-[5vw] rounded-[2.5vw] pl-[2.5vw] pr-[2.5vw] bg-white absolute top-[3vw] left-[10vw]   flex justify-between items-center">
+            <p class="text-[2vw] font-semibold">P-Ticket</p>
+            <div class="text-[1vw] font-medium flex gap-[3vw]">
+                <p>Home</p>
+                <p>About</p>
+                <p>Destination</p>
+                <p>Search</p>
+            </div>
+            <button class="h-[3vw] w-[7vw] border-2 rounded-[1.5vw] border-green-300 bg-green-100 flex justify-around items-center">
+                <p class="text-[1vw] font-medium text-green-500">Bus</p>
+                <img src="images/bus-icon.png" alt="">
+            </button>
+        </div>
+        <p class="pt-[25vh] text-[5vw] text-[white] text-center font-semibold">End to end Travel With</p>
+        <p class="text-[3vw] text-black text-center font-semibold ">Greenline Paribahan</p>
+        <p class="pt-[3vw] text-[1.3vw] text-gray-300 text-center">Yes, you can run unit tests and view the results directly within the app. The integrated <br>testing features allow for a streamlined .</p>
+        <div class="pt-[5vw] flex justify-center">
+            <button class=" h-[4vw] w-[10vw] bg-[#17E32B] text-[1.5vw]">Buy Tickets</button>
+        </div>
+    </header>
+
+    
+    
+
+
+    <section class="mt-[7vw] mb-[5vw] w-[80vw] mx-auto flex flex-col gap-[5vw]">
+        <p class="text-[3vw] font-semibold text-center">Best Offers For You</p>
+
+        <div class="flex justify-between">
+
+            <div class="h-[15vw] w-[38vw] p-[3vw] rounded-[2vw]  bg-yellow-400 relative flex justify-between items-center">
+                <div class="h-[2vw] w-[4vw] rounded-bl-[2vw] rounded-br-[2vw] bg-white absolute top-0 left-[23vw]"></div>
+                <div class="h-[2vw] w-[4vw] rounded-tl-[2vw] rounded-tr-[2vw] bg-white absolute bottom-0 left-[23vw]"></div>
+                <div>
+                    <p class="text-[2.5vw] font-bold">15% OFF</p>
+                    <p class="text-[1.2vw] font-semibold">on your next purchase</p>
+                    <p class="text-[1vw]">by january 24 only</p>
+                </div>
+                <div>
+                    <p id="first_cupon_code"   class="text-[2.5vw] font-bold">NEW15</p>
+                    <p id="second_cupon_code"  class="text-[1vw]">on your next purchase</p>
+                </div>
+            </div>
+
+            <div class="h-[15vw] w-[38vw] p-[3vw] rounded-[2vw]  bg-pink-300 relative flex justify-between items-center">
+                <div class="h-[2vw] w-[4vw] rounded-bl-[2vw] rounded-br-[2vw] bg-white absolute top-0 left-[23vw]"></div>
+                <div class="h-[2vw] w-[4vw] rounded-bl-[2vw] rounded-br-[2vw] bg-white absolute top-0 left-[23vw]"></div>
+                
+                    <div class="">
+                        <p class="text-[2.5vw] font-bold">20% OFF</p>
+                    <p class="text-[1.2vw] font-semibold">on your next purchase</p>
+                    <p class="text-[1vw]">by january 24 only</p>
+                    </div>
+                
+                <div >
+                    <p class="text-[2.5vw] font-bold">Couple 20</p>
+                    <p class="text-[1vw]">on your next purchase</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center">
+            <button class="h-[3vw] w-[10vw] border-4 rounded-lg border-green-500 bg-green-100 text-[1.5vw] text-green-500  hover:bg-pink-200">See More</button>
+        </div>
+
+    </section>
+
+
+    <section class="h-auto w-full mx-auto rounded-t-[50px] pb-[5vw] bg-green-50">
+
+        <p class="text-[2vw] text-center pt-20 pb-10">P.H. Paribahan</p>
+        <p class="pb-10 text-gray-400 text-sm text-center ">Yes, you can run unit tests and view the results directly
+            within the app. The integrated<br>testing features allow for a streamlined .</p>
+
+        <div class="h-[30vw] w-[80vw] mb-[10vw] mx-auto rounded-[3vw] bg-white relative ">
+            <div class="h-[3vw] w-[6vw] rounded-bl-[3vw] rounded-tr-[3vw] bg-pink-400 absolute top-0 left-[55vw]"></div>
+            <div class="h-[3vw] w-[6vw] rounded-tl-[3vw] rounded-br-[3vw] bg-pink-400 absolute bottom-0 left-[55vw]">
+            </div>
+
+            <div class="h-[22vw] w-[70vw]   absolute left-[5vw] top-[4vw] grid grid-cols-8">
+
+                <div class="col-span-6 flex flex-col justify-around">
+                    <div class=" flex justify-between">
+                        <div class="flex gap-[1vw]">
+                            <div><img src="images/bus-logo.png" alt=""></div>
+                            <div>
+                                <p class="text-[1.5vw] font-bold">Greenline Paribahan</p>
+                                <p class="">Route -0057ag AC Business</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="w-[12vw] h-[3vw] rounded-[1vw] bg-green-50 flex justify-center items-center">
+                                <img class="h-[60%]" src="images/seat-green.png" alt="">
+                                <p class="text-[1vw] text-green-500 font-semibold">Available seat : <span id="available_seats">40</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full h-auto p-[1vw] rounded-[1vw] bg-green-50">
+                        <div class="flex justify-between">
+                            <p class="text-[1vw]">Route</p>
+                            <p class="text-[1vw] font-semibold">Dhaka-Khulna</p>
+                        </div>
+                        <div class="w-full mt-[1vw] mb-[1vw] border-t-2 border-dashed border-gray-400"></div>
+                        <div class="flex justify-between">
+                            <p class="text-[1vw]">Departure Time</p>
+                            <p class="text-[1vw] font-semibold">10PM</p>
+                        </div>
+                        <div class="w-full mt-[1vw] mb-[1vw] border-t-2 border-dashed border-gray-400"></div>
+                        <div class="grid grid-cols-3 gap-[1vw]">
+                            <div
+                                class=" h-[3.5vw] rounded-[1vw] bg-gray-300 text-[1vw] font-semibold flex justify-center items-center">
+                                Boarding Point : Dhaka</div>
+                            <div
+                                class=" h-[3.5vw] rounded-[1vw] bg-gray-300 text-[1vw] font-semibold flex justify-center items-center">
+                                Droppint Poinnt : Khulna</div>
+                            <div
+                                class=" h-[3.5vw] rounded-[1vw] bg-gray-300 text-[1vw] font-semibold flex justify-center items-center">
+                                Estimated Time : 4 Hours</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-span-2 flex flex-col justify-center items-center">
+                    <img class="h-[5vw] w-[5vw]" src="images/fare.png" alt="">
+                    <p class="text-[3vw] font-bold">550 Tk </p>
+                    <p class="text-[2vw] font-semibold">Per Seat</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- <p id="first_cupon_code">new15</p>
+        <p id="second_cupon_code">couple 20</p> -->
+
+
+        <div class="min-h-screen bg-white w-[80vw] mx-auto rounded-[15px] flex justify-center items-center">
+            <div class="w-[45vw] h-[95vh] pr-[2vw] border-r-2 border-gray-400 border-dashed ">
+
+                <p class="text-lg font-bold">Select Your Seat</p>
+
+                <div class="mt-2 mb-4 border-t-2 border-b-2 border-dashed border-gray-400 flex justify-between">
+                    <div class="flex gap-[5px]">
+                        <img src="images/seat-gray.png" alt="">
+                        <p>Available</p>
+                    </div>
+                    <div class="flex gap-[5px]">
+                        <img src="images/seat-green.png" alt="">
+                        <P>Seat Booked</P>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-between">
+                    <div class="mb-4 flex justify-end">
+                        <button class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-300 text-center">Driver</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>A</p>
+                        <button id="A1" onclick="handle_onclick_on_seat('A1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">A1</button>
+                        <button id="A2" onclick="handle_onclick_on_seat('A2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">A2</button>
+                        <button id="A3" onclick="handle_onclick_on_seat('A3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">A3</button>
+                        <button id="A4" onclick="handle_onclick_on_seat('A4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">A4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>B</p>
+                        <button id="B1" onclick="handle_onclick_on_seat('B1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">B1</button>
+                        <button id="B2" onclick="handle_onclick_on_seat('B2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">B2</button>
+                        <button id="B3" onclick="handle_onclick_on_seat('B3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">B3</button>
+                        <button id="B4" onclick="handle_onclick_on_seat('B4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">B4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>C</p>
+                        <button id="C1" onclick="handle_onclick_on_seat('C1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">C1</button>
+                        <button id="C2" onclick="handle_onclick_on_seat('C2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">C2</button>
+                        <button id="C3" onclick="handle_onclick_on_seat('C3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">C3</button>
+                        <button id="C4" onclick="handle_onclick_on_seat('C4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">C4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>D</p>
+                        <button id="D1" onclick="handle_onclick_on_seat('D1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">D1</button>
+                        <button id="D2" onclick="handle_onclick_on_seat('D2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">D2</button>
+                        <button id="D3" onclick="handle_onclick_on_seat('D3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">D3</button>
+                        <button id="D4" onclick="handle_onclick_on_seat('D4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">D4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>E</p>
+                        <button id="E1" onclick="handle_onclick_on_seat('E1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">E1</button>
+                        <button id="E2" onclick="handle_onclick_on_seat('E2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">E2</button>
+                        <button id="E3" onclick="handle_onclick_on_seat('E3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">E3</button>
+                        <button id="E4" onclick="handle_onclick_on_seat('E4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">E4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>F</p>
+                        <button id="F1" onclick="handle_onclick_on_seat('F1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">F1</button>
+                        <button id="F2" onclick="handle_onclick_on_seat('F2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">F2</button>
+                        <button id="F3" onclick="handle_onclick_on_seat('F3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">F3</button>
+                        <button id="F4" onclick="handle_onclick_on_seat('F4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">F4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>G</p>
+                        <button id="G1" onclick="handle_onclick_on_seat('G1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">G1</button>
+                        <button id="G2" onclick="handle_onclick_on_seat('G2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">G2</button>
+                        <button id="G3" onclick="handle_onclick_on_seat('G3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">G3</button>
+                        <button id="G4" onclick="handle_onclick_on_seat('G4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">G4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>H</p>
+                        <button id="H1" onclick="handle_onclick_on_seat('H1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">H1</button>
+                        <button id="H2" onclick="handle_onclick_on_seat('H2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">H2</button>
+                        <button id="H3" onclick="handle_onclick_on_seat('H3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">H3</button>
+                        <button id="H4" onclick="handle_onclick_on_seat('H4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">H4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>I</p>
+                        <button id="I1" onclick="handle_onclick_on_seat('I1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">I1</button>
+                        <button id="I2" onclick="handle_onclick_on_seat('I2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">I2</button>
+                        <button id="I3" onclick="handle_onclick_on_seat('I3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">I3</button>
+                        <button id="I4" onclick="handle_onclick_on_seat('I4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">I4</button>
+                    </div>
+                    <div class="mb-4 flex justify-between">
+                        <p>J</p>
+                        <button id="J1" onclick="handle_onclick_on_seat('J1')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">J1</button>
+                        <button id="J2" onclick="handle_onclick_on_seat('J2')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">J2</button>
+                        <button id="J3" onclick="handle_onclick_on_seat('J3')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">J3</button>
+                        <button id="J4" onclick="handle_onclick_on_seat('J4')"
+                            class="w-[7vw] h-[5vh] rounded-[5px] bg-gray-200 text-center">J4</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="w-[29vw] h-[95vh] pl-[2vw]">
+
+                <p class="text-lg font-bold">Your Selected Seat :</p>
+                <div class="w-full mt-2 border-t-2 border-dashed border-gray-400"></div>
+
+                <div class="w-full h-auto mt-7 p-5 bg-gray-100 rounded-lg">
+
+                    <div class="font-semibold flex justify-between">
+                        <p>seat : <span id="selected_seats">0</span></p>
+                        <p>class</p>
+                        <p>price</p>
+                    </div>
+                    <div class="w-full mt-2 border-t-2 border-dashed border-gray-400"></div>
+
+
+                    <div id="seat_selecting_warning"
+                        class="mt-3 px-3 py-1 rounded-lg bg-gray-200 text-red-500 text-center">
+                        <p>Select a seat</p>
+                    </div>
+
+                    <div id="seat_1" class="mt-3 px-3 py-1 rounded-lg bg-gray-200 flex justify-between hidden">
+                        <p id="seat_1_name"></p>
+                        <p>Echonomy</p>
+                        <p>550</p>
+                    </div>
+                    <div id="seat_2" class="mt-3 px-3 py-1 rounded-lg bg-gray-200 flex justify-between hidden">
+                        <p id="seat_2_name"></p>
+                        <p>Echonomy</p>
+                        <p>550</p>
+                    </div>
+                    <div id="seat_3" class="mt-3 px-3 py-1 rounded-lg bg-gray-200 flex justify-between hidden">
+                        <p id="seat_3_name"></p>
+                        <p>Echonomy</p>
+                        <p>550</p>
+                    </div>
+                    <div id="seat_4" class="mt-3 px-3 py-1 rounded-lg bg-gray-200 flex justify-between hidden">
+                        <p id="seat_4_name"></p>
+                        <p>Echonomy</p>
+                        <p>550</p>
+                    </div>
+                    <p id="seat_excidding_warning" class="mt-3 text-[8px] text-red-500 text-center hidden">You cann't
+                        select more than 4 seats</p>
+
+                    <div class="w-full mt-2 border-t-2 border-dashed border-gray-400"></div>
+
+                    <div class="mt-3 px-3 py-1 rounded-lg bg-gray-300 font-semibold flex justify-between">
+                        <p>Total Price</p>
+                        <p id="total_price">0</p>
+                    </div>
+
+                    <div id="cupon_submit_div" class="mt-3 flex justify-between items-center">
+                        <input id="cupon_submit_area" type="text" class="w-[18vw] h-[5vh] rounded-md">
+                        <button id="cupon_submit_button" onclick="handle_cupon_code_onclick('cupon_submit_area')"
+                            class="px-3 h-[5vh] w-[5vw] text-[1vw]  rounded-md bg-gray-200 ">submit</button>
+                    </div>
+                    <!-- <p id="invalid_cupon_warning" class="mt-3 text-[8px] text-red-500 text-center hidden">Invalid Cupon</p> -->
+
+                    <div id="discount_div"
+                        class="mt-3 px-3 py-1 rounded-lg bg-gray-300 font-semibold flex justify-between hidden">
+                        <p>Discount</p>
+                        <p id="discount_price">0</p>
+                    </div>
+
+                    <div class="w-full mt-2 border-t-2 border-dashed border-gray-400"></div>
+
+                    <div id="grand_total_div"
+                        class="mt-3 px-3 py-1 rounded-lg bg-gray-300 font-semibold flex justify-between hidden">
+                        <p>Grand total</p>
+                        <p id="grand_total">0</p>
+                    </div>
+
+                </div>
+
+
+                <div id="name_submit_div" class="mt-3 flex justify-between items-center">
+                    <input id="name_submit_area" type="text" class="w-[20vw] h-[5vh] rounded-md p-3 text-[1vw] bg-gray-100"
+                        placeholder="name">
+                    <button id="name_submit_button" onclick="handle_name_submit_onclick('name_submit_area')"
+                        class="px-3 h-[5vh] w-[6vw] text-[1vw]   rounded-md bg-[#17E32B] ">submit</button>
+                </div>
+                <div id="mobile_submit_div" class="mt-3 flex justify-between items-center">
+                    <input id="mobile_submit_area" type="text" class="w-[20vw] h-[5vh] rounded-md p-3 text-[1vw] bg-gray-100"
+                        placeholder="mobile">
+                    <button id="mobile_submit_button" onclick=""
+                        class="px-3 h-[5vh] w-[6vw] text-[1vw]  rounded-md bg-[#17E32B] ">submit</button>
+                </div>
+                <button id="confirm_button" onclick="handle_confirmation_onclick()"
+                    class="mt-3 px-3 h-[5vh] w-full  rounded-md bg-gray-200 ">NEXT</button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="confirmation_page" class="h-[100vh] w-[100vw] bg-gray-200 flex justify-center items-center absolute bottom-0 hidden">
+        <div class="h-[30vw] w-[50vw] bg-white flex flex-col justify-around items-center">
+            <img class="h-[10vw] w-[10vw]" src="images/success.png" alt="">
+            <p class="text-[2.5vw] font-semibold text-green-700">success</p>
+            <p class="text-[1.5vw] text-center font-semibold">Thank you for Booking Our Bus Seats. <br>  We are working hard to find the best service and deals for you.</p>
+            <p class="text-[1.2vw]">Shortly you will find a confirmation in your email.</p>
+            <button id="submission_btn" onclick="handle_submission_onclick()" class=" h-[4vw] w-[10vw] rounded-[1vw] bg-green-500 text-[1.5vw]">Continue</button>
+            
+        </div>
+    </section>
+
+    <!-- <script src="JS/test.js"></script> -->
+    <script src="JS/functions.js"></script>
+
+</body>
+
+</html>
+
